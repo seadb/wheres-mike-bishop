@@ -24,9 +24,11 @@ provided
 
 Development
 ---
-1. `$ npm run dev`
+1. `$ export NODE_ENV="development"`
 
-2. Open [http://localhost:8080/](http://localhost:8080/).
+2. `$ npm run dev`
+
+3. Open [http://localhost:8080/](http://localhost:8080/).
 
 Production
 ---
