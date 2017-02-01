@@ -1,0 +1,123 @@
+body {
+  background-image: url('../img/capitol.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  letter-spacing: .1em;
+  padding: 130px 0px;
+}
+
+a {
+  color: white;
+}
+
+img {
+  float: right;
+  margin-left: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.8;
+}
+
+iframe {
+border: none; margin: 0px; padding: 0px; overflow: hidden; width: 100%; height: 100%; 
+}
+.overlay {
+  background-color: #102030;
+  content:"";
+  top:0;
+  left:0;
+  bottom: 0;
+  padding: 100px 0px;
+  position: fixed;
+  opacity: .8;
+  width:100%;
+  z-index: -1;
+}
+
+.mike-bishop {
+  font-family: 'Raleway', sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+  z-index: 1;
+  opacity: 1.0;
+}
+
+.nav {
+  border-bottom: 1px solid white;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  height: 40px;
+  justify-content: space-between;  
+  letter-spacing: .1em;
+  margin-bottom: 30px;
+}
+
+h4 {
+ margin: 0;
+ letter-spacing: .2em;
+}
+.center {
+  text-align: center;
+}
+.justify-center {
+  text-align: justify;
+  width: 620px;
+  margin: 0 auto;
+}
+.justify {
+  text-align: justify;
+}
+.milk-carton {
+  height: 500px;
+}
+.tcw {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%
+}
+.tcw:after {
+  content: "";
+  display: block;
+  margin-top: 25%;
+}
+.contact {
+  font-size: 36px;
+  letter-spacing: 10px;
+}
+
+.contact a.twitter {
+  color: #0084b4;
+}
+.contact a.email {
+  color: #a93333;
+}
+
+.contact a.youtube {
+  color: #c4302b;
+}
+
+.contact a.facebook {
+  color: #3b5998;
+}
+
+.contact a.rss {
+  color: #f26522;
+}
+
